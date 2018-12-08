@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #3B57A0;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.login h1{
+    color:#3B57A0;
+}
+.mask {
+}
+.login button{
+    padding:6px;
+    border:none;
+    color:white;
+    background-color:#3B57A0;
+}
+.login{
+    background-color:whitesmoke;
+}
+.login input{
+    padding:10px;
+    border:none;
+}
+.topnav a:hover {
+    background-color: #fff;
+    color: #3B57A0;
+}
+.topnav a.active {
+    background-color: #3B57A0;
+    color: white;
+}
+.topnav .search-container {
+    float: right;
+}
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 7px;
+    margin-right: 16px;
+    background: white;
+    font-size: 17px;
+    border-style:solid;
+    border-width:1px;
+    border-color:gray;
+    cursor: pointer;
+    color: black;
+}
+.topnav .search-container button:hover {
+    background: whitesmoke;
+}
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 12px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
